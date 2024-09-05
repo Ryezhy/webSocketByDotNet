@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Unity" Version="9.0.537" />
+    <PackageReference Include="TouchSocket" Version="2.0.17" />
+    <PackageReference Include="TouchSocket.Core" Version="2.0.17" />
+    <PackageReference Include="TouchSocket.Http" Version="2.0.17" />
+  </ItemGroup>
+</Project>
